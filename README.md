@@ -11,3 +11,6 @@ In addition to displaying individual items, the site also includes a feature to 
 Another important feature of the site is the ability to view and add items to a cart. The cartListMaker() function generates a list of items that have been added to the cart, along with their respective quantities and total price. Users can also adjust the quantity of an item in the cart, which updates the total cost. The cart can be accessed by clicking on the cart icon in the navigation bar.
 
 Overall, this website provides a user-friendly interface for customers to view and purchase meat and related products. The JavaScript code provides dynamic functionality and interactivity, making the shopping experience smooth and enjoyable.
+
+
+https://parkercros.github.io/
