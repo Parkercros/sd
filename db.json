@@ -1,0 +1,561 @@
+{
+    "Meats" : [
+    {
+            "id": 1,
+            "name": "Bratwurst",
+            "price": 7.58,
+            "origin": "Germany",
+            "animal": "pork",
+            "type": "Sausage",
+            "image": "https://stiglmeier.com/wp-content/uploads/2021/05/411-BRATWURST-MED-scaled.jpg",
+            "description": "Bratwurst is a type of German sausage made from pork or, less commonly, beef or veal. The name is derived from the Old High German Brätwurst, from brät-, finely chopped meat, and Wurst, sausage, although in modern German it is often associated with the verb braten, to pan fry or roast.",
+            "favorite": false,
+            "inCart": false
+          },
+          
+          {
+            "id": 2,
+            "name": "Kurobuta Sausage",
+            "price": 3.01,
+            "origin": "Japan",
+            "animal": "pork",
+            "type": "Sausage",
+            "image": "https://stiglmeier.com/wp-content/uploads/2021/05/345-SWISS-CHEESE-KNACKER-scaled.jpg",
+            "description": "Berkshire, also known as kurobuta, is a breed of black-haired pig with extremely rich marbling, excellent flavor, and high umami content. These Japanese sausages are produced using this high quality pork resulting in an abundantly umami taste and rich nutty flavor accented by light smoking.",
+            "favorite": false,
+            "inCart": false
+          },
+          {
+            "id": 3,
+            "name": "Butifarra",
+            "price": 8.24,
+            "origin": "Spain",
+            "animal": "pork",
+            "type": "Sausage",
+            "image": "https://stiglmeier.com/wp-content/uploads/2021/05/591-DEBREZINER-scaled.jpg",
+            "description": "Botifarra (Spanish: butifarra; French: boutifarre) is a type of sausage and one of the most important dishes of the Catalan cuisine. Botifarra is based on ancient recipes, either the Roman sausage botulu or the lucanica, made of raw pork and spices, with variants today in Italy and in the Portuguese and Brazilian linguiça.",
+            "favorite": false,
+            "inCart": false
+          },
+          {
+            "id": 4,
+            "name": "Frankfurter",
+            "price": 13.23,
+            "origin": "Austria",
+            "animal": "pork",
+            "type": "Sausage",
+            "image": "https://stiglmeier.com/wp-content/uploads/2021/05/331-BAV-SMOKY-LINKS-scaled.jpg",
+            "description": "A Frankfurter Würstchen is a thin parboiled sausage in a casing of sheep's intestine. The flavor is acquired by a method of low temperature smoking. For consumption, Frankfurters are occasionally not boiled; they are heated in hot water for only about eight minutes to prevent the skin from bursting.",
+            "favorite": false,
+            "inCart": false
+          },
+          {
+            "id": 5,
+            "name": "Salami",
+            "price": 7.14,
+            "origin": "Italy",
+            "animal": "pork",
+            "type": "Cured meat",
+            "image": "https://stiglmeier.com/wp-content/uploads/2021/05/621-TELI-SALAMI-scaled.jpg",
+            "description": "Salami is a cured sausage consisting of fermented and air-dried meat, typically pork. Historically, salami was popular among Southern, Eastern, and Central European peasants because it can be stored at room temperature for up to 45 days once cut, supplementing a potentially meager or inconsistent supply of fresh meat.",
+            "favorite": false,
+            "inCart": false
+          },
+          {
+            "id": 6,
+            "name": "British Bangers",
+            "price": 12.53,
+            "origin": "Britain",
+            "animal": "Pork",
+            "type": "Sausage",
+            "image": "https://stiglmeier.com/wp-content/uploads/2021/05/441-BAVARIAN-BRAT-scaled.jpg",
+            "description": "Bangers are the quintessential British breakfast sausage, forever immortalised by being half of the classic Bangers & Mash, and they have become famous internationally as 'bangers'. Bangers are not just one kind of sausage, the term bangers can refer to any British sausage and you will a variety of British sausages in the English breakfast depending on what part of the country you are in.",
+            "favorite": false,
+            "inCart": false
+          },
+          {
+            "id": 7,
+            "name": "Wieners",
+            "price": 7.04,
+            "origin": "Germany",
+            "animal": "beef and pork",
+            "type": "Sausage",
+            "image": "https://stiglmeier.com/wp-content/uploads/2021/05/321-WIENERS-scaled.jpg",
+            "description": "A type of sausage made from a mixture of beef and pork, seasoned with spices and smoke-cured.",
+            "favorite": false,
+            "inCart": false
+          },
+          {
+            "id": 8,
+            "name": "Beef Wieners",
+            "price": 1.12,
+            "origin": "Germany",
+            "animal": "beef",
+            "type": "Sausage",
+            "image": "https://stiglmeier.com/wp-content/uploads/2021/05/611-GYULAI-scaled.jpg",
+            "description": "A type of sausage made from ground beef and seasoned with spices, smoke-cured and fully cooked.",
+            "favorite": false,
+            "inCart": false
+          },
+          {
+            "id": 9,
+            "name": "Franks",
+            "price": 14.37,
+            "origin": "USA",
+            "animal": "beef and pork",
+            "type": "Sausage",
+            "image": "https://stiglmeier.com/wp-content/uploads/2021/05/331-BAV-SMOKY-LINKS-scaled.jpg",
+            "description": "A type of sausage made from a mixture of beef and pork, seasoned with spices and smoke-cured.",
+            "favorite": false,
+            "inCart": false
+          },
+          {
+            "id": 10,
+            "name": "Knackwurst",
+            "price": 11.49,
+            "origin": "Germany",
+            "animal": "beef and pork",
+            "type": "Sausage",
+            "image": "https://stiglmeier.com/wp-content/uploads/2021/05/301-KNACKWURST-scaled.jpg",
+            "description": "A traditional German sausage made from a mixture of beef and pork, seasoned with spices and smoke-cured.",
+            "favorite": false,
+            "inCart": false
+          },
+          {
+            "id": 11,
+            "name": "Cheese & Onion Knackwurst",
+            "price": 2.84,
+            "origin": "Germany",
+            "animal": "beef and pork",
+            "type": "Sausage",
+            "image": "https://stiglmeier.com/wp-content/uploads/2021/05/301-KNACKWURST-scaled.jpg",
+            "description": "A traditional German sausage made from a mixture of beef and pork, seasoned with spices, smoke-cured, and filled with cheese and onions.",
+            "favorite": false,
+            "inCart": false
+          },
+          {
+            "id": 12,
+            "name": "Polish Rings",
+            "price": 12.13,
+            "origin": "Poland",
+            "animal": "Pork",
+            "type": "Smoked sausage",
+            "image": "https://stiglmeier.com/wp-content/uploads/2021/05/451-HUNGARIAN-BRAT1-scaled.jpg",
+            "description": "A large, circular sausage made from ground pork and seasoned with spices like garlic and marjoram. Polish rings are often served as a main dish, sliced and grilled or fried.",
+            "favorite": false,
+            "inCart": false
+          },
+          {
+            "id": 13,
+            "name": "Snack Sausage",
+            "price": 5.41,
+            "origin": "United States",
+            "animal": "Beef and Pork",
+            "type": "Sausage",
+            "image": "https://stiglmeier.com/wp-content/uploads/2021/05/311-GARLIC-SAUSv2-scaled.jpg",
+            "description": "A small, bite-sized sausage that is often used as a snack or appetizer. Snack sausages can be made from a variety of meats, including beef, pork, and poultry, and may be flavored with herbs and spices.",
+            "favorite": false,
+            "inCart": false
+          },
+          {
+            "id": 14,
+            "name": "Farm Sausage",
+            "price": 8.63,
+            "origin": "Unknown",
+            "animal": "Beef and Pork",
+            "type": "Sausage",
+            "image": "https://stiglmeier.com/wp-content/uploads/2021/05/520-FARMERS-SAUS-scaled.jpg",
+            "description": "A type of sausage that is made from meat that is typically sourced from a local farm. Farm sausages can be made from a variety of meats, including pork, beef, and poultry, and may be flavored with herbs and spices.",
+            "favorite": false,
+            "inCart": false
+          },
+          {
+            "id": 15,
+            "name": "Beer Sausage",
+            "price": 10.41,
+            "origin": "United States",
+            "animal": "Pork",
+            "type": "Smoked sausage",
+            "image": "https://stiglmeier.com/wp-content/uploads/2021/05/211-BEER-SAUSAGE-scaled.jpg",
+            "description": "A type of sausage that is made by simmering pork in beer and then smoking it. Beer sausage has a slightly bitter, savory flavor that pairs well with other hearty foods and beer.",
+            "favorite": false,
+            "inCart": false
+          },
+          {
+            "id": 16,
+            "name": "Red Hots",
+            "price": 12.29,
+            "origin": "United States",
+            "animal": "Beef",
+            "type": "Frankfurter",
+            "image": "https://stiglmeier.com/wp-content/uploads/2021/05/601-KILOMETER-scaled.jpg",
+            "description": "A type of beef sausage that is known for its spicy flavor. Red hots are a popular food item at American sporting events and picnics, often served hot in a hotdog bun with mustard and other toppings.",
+            "favorite": false,
+            "inCart": false
+          },
+          {
+            "id": 17,
+            "name": "Pepperoni Sticks",
+            "price": 12.21,
+            "origin": "Italy",
+            "animal": "Pork and beef",
+            "type": "Dry-cured sausage",
+            "image": "https://stiglmeier.com/wp-content/uploads/2021/05/581-LANDJAEGER-scaled.jpg",
+            "description": "A type of dry-cured sausage that is made from a mixture of pork and beef and flavored with spices, including paprika and red pepper flakes. Pepperoni sticks are a popular snack food and can also be used as a topping on pizza.",
+            "favorite": false,
+            "inCart": false
+          },
+          {
+            "id": 18,
+            "name": "Thuringer",
+            "price": 13.59,
+            "origin": "Germany",
+            "animal": "Pork",
+            "type": "Smoked sausage",
+            "image": "https://stiglmeier.com/wp-content/uploads/2021/05/341-THUERINGERv2-scaled.jpg",
+            "description": "A type of smoked sausage that originated in the Thuringia region of Germany. Thuringer is made from ground pork and seasoned with spices like caraway and garlic. It is often served as a main dish, sliced and grilled or fried.",
+            "favorite": false,
+            "inCart": false
+          },
+          {
+            "id": 19,
+            "name": "Braunschweiger",
+            "price": 3.26,
+            "origin": "Germany",
+            "animal": "Liver",
+            "type": "Liver sausage",
+            "image": "https://stiglmeier.com/wp-content/uploads/2021/05/571-HOLSTEINER-scaled.jpg",
+            "description": "A type of liver sausage that is made from pork liver, milk, and spices. Braunschweiger has a creamy, smooth texture and is often used as a spread or as a main dish, sliced and grilled or fried.",
+            "favorite": false,
+            "inCart": false
+          },
+          
+          {
+            "id": 20,
+            "name": "Bockwurst",
+            "price": 13.32,
+            "origin": "Germany",
+            "animal": "Veal and pork",
+            "type": "Fresh sausage",
+            "image": "https://stiglmeier.com/wp-content/uploads/2021/05/461-GRILL-BRATWURST-scaled.jpg",
+            "description": "A type of fresh sausage that is made from a mixture of veal and pork and seasoned with spices like parsley and chives. Bockwurst is often served with potatoes and gravy and is a popular food item at outdoor events and festivals.",
+            "favorite": false,
+            "inCart": false
+          },
+  
+          {
+            "id": 21,
+            "name": "Weisswurst",
+            "price": 7.74,
+            "origin": "Germany",
+            "animal": "Veal",
+            "type": "Fresh sausage",
+            "image": "https://stiglmeier.com/wp-content/uploads/2021/11/421_WEISSWURST1.jpeg",
+            "description": "A type of fresh sausage that is made from veal and flavored with spices like lemon and cardamom. Weisswurst is a staple of Bavarian cuisine and is typically served with sweet mustard and a soft pretzel.",
+            "favorite": false,
+            "inCart": false
+          }
+          
+          
+          
+         
+          
+     
+  
+    ],
+    "merch" : [
+        {
+            "id" : 1,
+            "name" : "Sweatpants",
+            "price" : 29.99,
+            "type" : "T-shirt",
+            "description" : "Cozy and comfortable sweatpants made from a soft 80% cotton, 20% polyester blend. Features an elastic waistband and cuffs with an adjustable drawstring for a secure and customizable fit. Perfect for lounging or running errands.",
+            "inCart":true,
+            "image" : "sources/sweatpants.png"
+        },
+        {
+            "id" : 2,
+            "name" : "Crewneck",
+            "price" : 19.99,
+            "type" : "clothing",
+            "description" : "Our crewneck is made with a high-quality blend of 80% cotton and 20% polyester, providing a soft and breathable fabric that's both comfortable and durable. The ribbed cuffs and hemline also use this same blend, ensuring a snug fit that will keep you warm without feeling too tight.",
+            "inCart":true,
+            "image" : "sources/crewneck.png"
+        },
+        {
+          "id" : 2,
+          "name" : "Tank Top",
+          "price" : 15.99,
+          "type" : "misc",
+          "description" : " Stylish and versatile tank top made from a lightweight and breathable blend of 95% cotton and 5% spandex. Features a slim-fit design with a ribbed texture, scoop neckline, and wide straps. Perfect for layering or dressing up.",
+          "inCart":true,
+          "image" : "sources/tank.png"
+         },
+       
+        {
+            "id" : 5,
+            "name" : "Passport Cover",
+            "price" : 39.99,
+            "type" : "accesories",
+            "description" : "Sleek and stylish leather passport holder crafted from high-quality genuine leather. Compact and slim design with interior pockets and sleeves for storage of passport, boarding pass, and other travel documents. Adds sophistication to your travel gear.",
+            "inCart":true,
+            "image" : "sources/passport.png"
+        },
+         {
+              "id" : 6,
+            "name" : "Stress Ball",
+            "price" : 3.99,
+            "type" : "misc",
+            "description" : "Our stress ball is made of soft and durable foam, perfect for relieving stress and anxiety. Easy to squeeze and release, it helps reduce tension, improve circulation, and promotes relaxation. Compact size makes it easy to keep on your desk or in your bag for quick stress relief.",
+            "inCart":true,
+            "image" : "sources/stressball.png"
+        },
+        {
+          "id" : 2,
+          "name" : "Face Mask",
+          "price" : 6.99,
+          "type" : "misc",
+          "description" : "Our face mask is comfortable and breathable, with adjustable ear loops and nose wire for a secure fit. Triple-layered fabric provides extra protection, and it's machine-washable.",
+          "inCart":true,
+          "image" : "sources/mask.png"
+         },
+        {  "id" : 7,
+        "name" : "Backpack",
+        "price" : 39.99,
+        "type" : "misc",
+        "description" : "Our spacious and durable Sausage Depot backpack can hold up to 25 pounds of sausages, making it a practical option for outdoor gatherings. With adjustable straps and multiple compartments, it offers a comfortable fit and ample storage for all your essentials. Available in different colors and styles.",
+        "inCart":true,
+        "image" : "sources/Backpack.png"
+    },
+    {"id" : 8,
+    "name" : "Calculator",
+    "price" : 9.99,
+    "type" : "misc",
+    "description" : "Our calculator is a reliable and user-friendly tool for home or office use. Its large display and compact design make basic calculations quick and effortless. Solar-powered, you'll never have to worry about running out of batteries. Perfect for on-the-go use.",
+    "inCart":true,
+    "image" : "sources/calculator.png"
+  },
+  {
+  "id" :90,
+  "name" : "beanie",
+  "price" : 15.99,
+  "type" : "misc",
+  "description" : "Our cozy beanie is perfect for colder weather, made from soft and warm material with a double-layered design for extra warmth. It's stretchy, breathable, and fits most head sizes.",
+  "inCart":true,
+  "image" : "sources/beanie.png"
+  },
+  {
+  "id" :90,
+  "name" : "Golf Balls",
+  "price" : 19.99,
+  "type" : "misc",
+  "description" : "Our high-quality golf balls are made from durable materials, offering excellent performance, distance, and accuracy. With an aerodynamic design and soft feel, they're perfect for golfers of all levels. Improve your game with our reliable golf balls.",
+  "inCart":true,
+  "image" : "sources/balls.png"
+  },
+  
+  {
+  "id" : 2,
+  "name" : "Whisk",
+  "price" : 9.99,
+  "type" : "misc",
+  "description" : "Our high-quality whisk is made of durable stainless steel with rust-resistant properties, ensuring long-lasting use. With comfortable and ergonomic handle and flexible wire loops, it's perfect for all your cooking and baking needs.",
+  "inCart":true,
+  "image" : "sources/whisk.png"
+  },
+  {
+  "id" : 2,
+  "name" : "Shot Glass",
+  "price" : 6.99,
+  "type" : "misc",
+  "description" : "Our durable shot glass made from high-quality glass with a 1.5-ounce capacity. Its classic design matches any decor, and it's perfect for serving shots. A must-have addition to your barware collection.",
+  "inCart":true,
+  "image" : "sources/shotglass.png"
+  },
+  {
+  "id" : 2,
+  "name" : "Wireless Charger",
+  "price" : 9.99,
+  "type" : "misc",
+  "description" : "Our wireless phone charger is a convenient and reliable way to recharge your phone. It's fast, has a non-slip surface, and is compatible with a range of smartphones. Its compact and sleek design makes it easy to use and transport, a must-have accessory for any smartphone user.",
+  "inCart":true,
+  "image" : "sources/charger.png"
+  },
+  {
+  "id" : 2,
+  "name" : "Childrens Bib",
+  "price" : 9.99,
+  "type" : "misc",
+  "description" : "Our children's bib is soft, comfortable, and easy to clean, making mealtime messes less stressful. The adjustable snap closure provides a secure and customized fit, and the generous size offers full coverage for maximum protection. ",
+  "inCart":true,
+  "image" : "sources/bib.png"
+  }
+    ],
+    
+    
+    "cheese" : [{
+        "id": 1,
+        "name": "American cheese",
+        "price": 10,
+        "origin": "United States",
+        "image": "https://store.pagelsponderosa.com/wp-content/uploads/2020/08/1yr-Cheddar-block-resized-2-scaled.jpg",
+        "description": "A type of processed cheese that is made from a blend of milk, whey, and other ingredients. American cheese is known for its creamy texture and mild flavor, and is often used as a sandwich filling or as a topping on burgers.",
+        "favorite": false,
+        "inCart": false
+      },
+      {
+        "id": 2,
+        "name": "Cheddar cheese",
+        "price": 15,
+        "origin": "England",
+        "image": "https://store.pagelsponderosa.com/wp-content/uploads/2020/08/Mild-Cheddar-Block-resized.jpg",
+        "description": "A type of hard, smooth cheese that ranges in flavor from mild to sharp, depending on its age. Cheddar cheese is one of the most popular types of cheese in the world and is often used in sandwiches, on pizza, and in dishes like macaroni and cheese.",
+        "favorite": false,
+        "inCart": false
+      },
+      {
+        "id": 3,
+        "name": "Swiss cheese",
+        "price": 20,
+        "origin": "Switzerland",
+        "image": "https://store.pagelsponderosa.com/wp-content/uploads/2020/08/Baby-Swiss-Cheddar-Block-resized-scaled.jpg",
+        "description": "A type of semi-hard cheese that is known for its nutty, slightly sweet flavor and distinctive holes. Swiss cheese is often used in sandwiches and as a topping on dishes like burgers and casseroles.",
+        "favorite": false,
+        "inCart": false
+      },
+      {
+        "id": 4,
+        "name": "Provolone cheese",
+        "price": 15,
+        "origin": "Italy",
+        "image": "https://store.pagelsponderosa.com/wp-content/uploads/2020/08/Monterey-Jack-Block-resized-600x600.jpg",
+        "description": "A type of semi-hard cheese that is made from cow's milk and has a slightly nutty, sharp flavor. Provolone cheese is often used as a sandwich filling or as a topping on dishes like pizza.",
+        "favorite": false,
+        "inCart": false
+      },
+      {
+        "id": 5,
+        "name": "Mozzarella cheese",
+        "price": 12,
+        "origin": "Italy",
+        "image": "https://store.pagelsponderosa.com/wp-content/uploads/2020/08/Mozzarella-Block-resized-scaled.jpg",
+        "description": "A type of soft, fresh cheese that is made from buffalo or cow's milk. Mozzarella cheese is known for its mild, slightly tangy flavor and its stretchy texture, and is often used as a topping on dishes like pizza and as a filling for dishes like lasagna.",
+        "favorite": false,
+        "inCart": false
+      },
+      {
+        "id": 6,
+        "name": "Colby cheese",
+        "price": 10,
+        "origin": "United States",
+        "image": "https://store.pagelsponderosa.com/wp-content/uploads/2020/08/Colby-Block-resized-scaled.jpg",
+        "description": "A type of American cheese that is similar to cheddar cheese, but has a milder flavor and a softer texture. Colby cheese is often used in sandwiches and as a topping on dishes like tacos and nachos.",
+        "favorite": false,
+        "inCart": false
+      },
+      {
+        "id": 7,
+        "name": "Colby-Jack cheese",
+        "price": 15,
+        "origin": "United States",
+        "image": "https://store.pagelsponderosa.com/wp-content/uploads/2020/08/Colby-Jack-Block-resized-scaled.jpg",
+        "description": "A type of cheese that is a mixture of colby cheese and Monterey Jack cheese. Colby-Jack cheese has a mild, slightly sweet flavor and a smooth, creamy texture, and is often used as a sandwich filling or as a topping on dishes like burgers.",
+        "favorite": false,
+        "inCart": false
+      },
+      {
+        "id": 8,
+        "name": "Monterey Jack cheese",
+        "price": 20,
+        "origin": "United States",
+        "image": "https://store.pagelsponderosa.com/wp-content/uploads/2020/08/Monterey-Jack-Block-resized-scaled.jpg",
+        "description": "A type of semi-hard cheese that is made from cow's milk and has a mild, slightly nutty flavor. Monterey Jack cheese is often used as a sandwich filling or as a topping on dishes like tacos and nachos.",
+        "favorite": false,
+        "inCart": false
+      },
+      {
+        "id": 9,
+        "name": "Gouda cheese",
+        "price": 20,
+        "origin": "Netherlands",
+        "image": "https://store.pagelsponderosa.com/wp-content/uploads/2020/08/Smoked-Cheddar-Block-resized-600x600.jpg",
+        "description": "A type of semi-hard cheese that is made from cow's milk and has a nutty, slightly sweet flavor. Gouda cheese can range in age from young to old, with older gouda having a stronger flavor. It is often used as a snack or as a topping on dishes like sandwiches and burgers.",
+        "favorite": false,
+        "inCart": false
+      },
+      
+      {
+        "id": 10,
+        "name": "Feta cheese",
+        "price": 15,
+        "origin": "Greece",
+        "image": "https://www.whynotdiy.me/wp-content/uploads/2021/06/Feta-cheese-shot-2-scaled.jpg",
+        "description": "A type of brined cheese that is made from sheep's milk or a mixture of sheep's and goat's milk. Feta cheese has a tangy, slightly salty flavor and a crumbly texture, and is often used as a topping on dishes like salads and pizzas.",
+        "favorite": false,
+        "inCart": false
+      },
+      {
+        "id": 11,
+        "name": "Parmesan cheese",
+        "price": 25,
+        "origin": "Italy",
+        "image": "https://store.pagelsponderosa.com/wp-content/uploads/2021/03/13-Cheddar-Block-resized-scaled.jpg",
+        "description": "A type of hard, salty cheese that is made from cow's milk and has a nutty, slightly sharp flavor. Parmesan cheese is often grated and used as a topping on dishes like pasta and soups, or as a snack with crackers.",
+        "favorite": false,
+        "inCart": false
+      },
+      {
+        "id": 12,
+        "name": "Muenster cheese",
+        "price": 10,
+        "origin": "Germany",
+        "image": "https://store.pagelsponderosa.com/wp-content/uploads/2020/08/Muenster-Block-resized-scaled.jpg",
+        "description": "A type of semi-soft cheese that is made from cow's milk and has a mild, slightly tangy flavor. Muenster cheese is often used as a sandwich filling or as a topping on dishes like burgers and grilled cheese sandwiches.",
+        "favorite": false,
+        "inCart": false
+      },
+      {
+        "id": 13,
+        "name": "Gorgonzola cheese",
+        "price": 20,
+        "origin": "Italy",
+        "image": "https://gootessacheese.com/wp-content/uploads/2020/05/P12_Der-Edel-Bleu-Kase.jpg",
+        "description": "A type of blue cheese that is made from cow's milk and has a tangy, slightly spicy flavor. Gorgonzola cheese is often used as a topping on dishes like salads and pizzas, or as a snack with crackers.",
+        "favorite": false,
+        "inCart": false
+      },
+      {
+        "id": 14,
+        "name": "Havarti cheese",
+        "price": 15,
+        "origin": "Denmark",
+        "image": "https://store.pagelsponderosa.com/wp-content/uploads/2020/08/2yr-cheddar-Block-resized-600x600.jpg",
+        "description": "A type of semi-soft cheese that is made from cow's milk and has a mild, slightly tangy flavor. Havarti cheese is often used as a sandwich filling or as a topping on dishes like burgers and grilled cheese sandwiches.",
+        "favorite": false,
+        "inCart": false
+      },
+      {
+        "id": 15,
+        "name": "Pepper Jack cheese",
+        "price": 10,
+        "origin": "United States",
+        "image": "https://store.pagelsponderosa.com/wp-content/uploads/2020/08/Pepper-Jack-Block-resized-scaled.jpg",
+        "description": "A type of cheese that is a mixture of Monterey Jack cheese and jalapeno peppers. Pepper Jack cheese has a mild, slightly spicy flavor and is often used as a sandwich filling or as a topping on dishes like tacos and nachos.",
+        "favorite": false,
+        "inCart": false
+      },
+      {
+        "id": 16,
+        "name": "Jarlsberg cheese",
+        "price": 15,
+        "origin": "Norway",
+        "image": "https://www.norseland.co.uk/wp-content/uploads/2016/04/jarlsberg.jpg",
+        "description": "A type of semi-hard cheese that is made from cow's milk and has a mild, nutty flavor. Jarlsberg cheese is often used as a sandwich filling or as a topping on dishes like salads and burgers.",
+        "favorite": false,
+        "inCart": false
+      }
+      
+    ]
+    }
+  
+  

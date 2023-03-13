@@ -1,0 +1,306 @@
+.banner {
+  width: 100%;
+  justify-self: right;
+}
+header {
+  background-color: bisque;
+  position: absolute;
+  top: 0px;
+  left: 5;
+}
+body {
+  background-color: bisque;
+}
+.meat-avatar {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border: coral;
+  border-radius: 10;
+}
+.card {
+  text-align: center;
+  border: rgb(0, 0, 0) solid 2px;
+  padding: 1rem;
+  width: 15rem;
+  height: 27rem;
+  display: inline-grid;
+  margin: 1rem 2rem;
+  margin-right: 1rem;
+  box-shadow: 3px 4px rgb(172, 105, 61);
+  border-radius: 10px;
+}
+#sidebar {
+  text-align: center;
+  border: rgb(0, 0, 0) solid 1px;
+  padding: 1;
+  width: 15rem;
+  height: 25rem;
+  display: inline-grid;
+  margin: 0rem 0rem;
+  box-shadow: 3px 4px rgb(172, 105, 61);
+}
+.logo {
+  justify-self: center;
+  width: 100%;
+  height: 300;
+}
+button {
+  position: relative;
+  background: none;
+  border: none;
+  border-radius: 5px;
+  height: 3rem;
+  width: max-content;
+  color: whitesmoke;
+  font-size: 18px;
+  justify-self: center;
+}
+.meat-avatar:hover {
+  background-color: rgb(11, 11, 11);
+  border: rgb(0, 0, 0) solid 1px;
+  color: rgb(8, 8, 8);
+}
+button:hover {
+  background-color: rgb(172, 105, 61);
+  border: rgb(121, 72, 40) solid 1px;
+  color: rgb(250, 205, 26);
+}
+.add-meat-form {
+  width: 80%;
+}
+.submit {
+  position: relative;
+  background-color: rgb(172, 105, 61);
+  border-radius: 5px;
+  height: 2rem;
+  width: max-content;
+  color: whitesmoke;
+  font-size: 18px;
+  justify-self: center;
+  font-family: monospace;
+  margin: 3px;
+}
+#Meat-Menu {
+  margin-left: 400;
+}
+p {
+  font-weight: bold;
+}
+button:hover {
+  cursor: pointer;
+}
+#sidebar h2:hover {
+  cursor: pointer;
+}
+#Meat img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.card img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.card {
+  width: 240px;
+  height: 370px;
+  position: relative;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+.card-flip {
+  transform: rotateY(180deg);
+}
+.card-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.card-btn:hover {
+  color: #f00;
+}
+.favorite-btn {
+  text-shadow: -.5 .5 0 #000, .5 .5 0 #000, .5 -.5 0 #000,
+    -.5 -.5 0 #000;
+}
+.card-front{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+}
+.card-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+.card-back {
+  transform: rotateY(180deg);
+}
+.card-details {
+  padding: 20px;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+.card {
+  /* other styles... */
+  cursor: pointer;
+}
+.card-details button {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.card-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+}
+.show{
+  z-index: 1000;
+}
+.card-back-description {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  visibility: hidden;
+}
+.card-flip .card-back-description {
+  visibility: visible;
+}
+.cart-container {
+  position: fixed;
+  background-color: rgb(255, 255, 255);border: #000;
+  height: 60%;
+  width: 60%;
+  margin-left: 34%;
+  margin-top: 10%;
+  overflow-y: scroll; 
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  
+}
+#cart-list {
+position: relative;
+height: 10%;
+}
+.cart-line{
+  justify-self: left;
+  display: grid;
+}
+.listImg{
+  position: relative;
+  height: 10%;
+}
+.Header{
+  margin: auto;
+  width: 90%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+ .Heading{
+  font-size: 20px;
+  font-family: ‘Open Sans’;
+  font-weight: 700;
+  color: #2F3841;
+ }
+ .Action{
+  font-size: 14px;
+  font-family: ‘Open Sans’;
+  font-weight: 600;
+  color: #E44C4C;
+  cursor: pointer;
+  border-bottom: 1px solid #E44C4C;
+ }
+ .cart-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.cart-line {
+  display: flex;
+  margin: 0px 0;
+  padding: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  text-align: center;
+}
+.listImg {
+  width: 135px;
+  height: 170px;
+  margin-right: 10px;
+}
+.cart-line p {
+  margin: 40;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: bisque transparent;
+}
+.cart-line p:last-child {
+  margin-left: auto;
+  
+}
+.cart-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.cart-line-item {
+ width: 20%
+}
+
+.cart-total { 
+  /* left: 80%;
+  top: 85%;
+  position: fixed absolute;
+  background-color: bisque;
+  border: 1px solid rgb(0, 0, 0); */
+
+  border-radius: 2px;
+}
+
+.total-holder {
+  right: 5.35%;
+  bottom:10.6%;
+  
+  position: fixed;
+  background-color: white;
+  text-align: center;
+  width: 10%;
+  border-radius: 2px;
+  border: 1px solid rgb(0, 0, 0);
+}
+#cartBtn{
+  background: none;
+  border: none;
+}
